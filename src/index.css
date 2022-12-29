@@ -1,0 +1,161 @@
+html,body{
+	margin: 0px;
+	background-color: #FAFAD2;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+
+}
+
+.produtsPage h2{
+	background-color: blue;
+	border-radius:20px ;
+	width: 200px;
+	padding-left: 40px;
+	color: white;
+}
+
+.selectedProduct{
+	padding: 15px;
+	border: 2px solid black;
+	position: relative;
+	margin-top: 60px;
+	background-color: white;
+	border-radius: 13px;
+}
+.selectedProduct img{
+	display: inline;
+	width: 300px;
+	height: 300px;
+}
+
+.rightside{
+	display: inline;
+	position: absolute;
+
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.cartBtn{
+	display: inline;
+	margin-top: 20px;
+	background-color:#2243B6;
+	color: white;
+}
+
+.buyBtn{
+	/*display: inline;*/
+	margin-top: 20px;
+	background-color: #FD0E35;
+	color: white;
+	margin-left: 50px;
+}
+
+button{
+	
+	padding: 10px;
+	/*border: 2px solid black;*/
+	border: none;
+	border-radius: 10px;
+	
+	font-weight: bold ;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+button:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+button:active{
+	opacity: 0.6;
+}
+
+.selectedProduct .title{
+	display: inline;
+	
+}
+
+.selectedProduct span{
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.instock{
+	font-weight: bold;
+	display: inline !important;
+}
+.selectedProduct strong{
+	display: block;
+	
+}
+
+/*
+.selectedProduct p{
+	display: inline;
+	margin-left: 20px;
+	margin-top: 60px;
+}*/
+.header{
+	color: #222;
+	text-align: center;
+	background-color: #A55353;
+	padding: 25px ;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.singleProduct{
+	
+	color: black;
+	width: 19%;
+	height: same-as-width;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+
+	border: 2px solid #555;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
+.singleProduct:hover{
+	cursor: pointer;
+	transform: scale(1.06);
+	background-color: #F0F0F0;
+	border-color: darkgreen;
+}
+/*
+.singleProduct em{
+	position: absolute;
+	margin-right: 5px;
+	margin-bottom: 3px !important;
+}*/
+
+.singleProduct h1{
+	text-align: center;
+}
+
+
+.singleProduct img{
+	width: 90px;
+	height: 90px;
+	margin-left: 50px;
+}
+
+.star{
+	transform: scale(0.7);
+	margin-left: -25px;
+
+}
